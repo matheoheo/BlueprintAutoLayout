@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Event BeginPlay",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Get Game Mode",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "IsValid?",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 4,
+      "name": "Log Success (Is Valid)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 5,
+      "name": "Log Error (Is Not Valid)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 10,
+      "name": "SpawnSystem",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 11,
+      "name": "Branch",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 12,
+      "name": "Spawn Emitter (True)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 13,
+      "name": "Apply Damage (True)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 14,
+      "name": "Destroy Actor (False)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 15,
+      "name": "Print Result",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 20,
+      "name": "On Interaction",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 21,
+      "name": "Check Distance",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 22,
+      "name": "Open Door (Success)",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 23,
+      "name": "Play Locked Sound (Fail)",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "to": 3
+    },
+    {
+      "from": 3,
+      "to": 4
+    },
+    {
+      "from": 3,
+      "to": 5
+    },
+    {
+      "from": 10,
+      "to": 11
+    },
+    {
+      "from": 11,
+      "to": 12
+    },
+    {
+      "from": 12,
+      "to": 13
+    },
+    {
+      "from": 11,
+      "to": 14
+    },
+    {
+      "from": 13,
+      "to": 15
+    },
+    {
+      "from": 14,
+      "to": 15
+    },
+    {
+      "from": 20,
+      "to": 21
+    },
+    {
+      "from": 21,
+      "to": 22
+    },
+    {
+      "from": 21,
+      "to": 23
+    }
+  ]
+}
